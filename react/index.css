@@ -1,0 +1,20 @@
+.table-header-cell {
+    cursor: pointer;
+    color: #007bff;
+}
+
+.table-header-cell:hover {
+    color: #003e80;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.pagination-text {
+    margin: 0 10px 0 10px !important;
+}
+
+.btn {
+    width: 50%;
+}

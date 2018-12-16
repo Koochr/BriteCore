@@ -1,0 +1,1190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DataTable
+    columns={
+      Array [
+        "id",
+        "name",
+        "description",
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "description": "Is a nice guy",
+          "id": 1,
+          "name": "John",
+        },
+        Object {
+          "description": "Is a nice guy too",
+          "id": 44,
+          "name": "Jack",
+        },
+        Object {
+          "description": "Suspicious person",
+          "id": 77,
+          "name": "Unknown",
+        },
+        Object {
+          "description": "Nothing to say about",
+          "id": 47,
+          "name": "Ivan",
+        },
+      ]
+    }
+    editableColumns={Array []}
+    onFocusChange={[MockFunction]}
+    onHeaderClick={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <thead>
+          <tr>
+            <th
+              className="table-header-cell"
+              onClick={[Function]}
+            >
+              id
+            </th>
+            <th
+              className="table-header-cell"
+              onClick={[Function]}
+            >
+              name
+            </th>
+            <th
+              className="table-header-cell"
+              onClick={[Function]}
+            >
+              description
+            </th>
+          </tr>
+        </thead>,
+        <tbody>
+          <tr>
+            <td
+              onClick={[Function]}
+            >
+              1
+            </td>
+            <td
+              onClick={[Function]}
+            >
+              John
+            </td>
+            <td
+              onClick={[Function]}
+            >
+              Is a nice guy
+            </td>
+          </tr>
+          <tr>
+            <td
+              onClick={[Function]}
+            >
+              44
+            </td>
+            <td
+              onClick={[Function]}
+            >
+              Jack
+            </td>
+            <td
+              onClick={[Function]}
+            >
+              Is a nice guy too
+            </td>
+          </tr>
+          <tr>
+            <td
+              onClick={[Function]}
+            >
+              77
+            </td>
+            <td
+              onClick={[Function]}
+            >
+              Unknown
+            </td>
+            <td
+              onClick={[Function]}
+            >
+              Suspicious person
+            </td>
+          </tr>
+          <tr>
+            <td
+              onClick={[Function]}
+            >
+              47
+            </td>
+            <td
+              onClick={[Function]}
+            >
+              Ivan
+            </td>
+            <td
+              onClick={[Function]}
+            >
+              Nothing to say about
+            </td>
+          </tr>
+        </tbody>,
+      ],
+      "className": "table table-striped table-hover",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <th
+              className="table-header-cell"
+              onClick={[Function]}
+            >
+              id
+            </th>
+            <th
+              className="table-header-cell"
+              onClick={[Function]}
+            >
+              name
+            </th>
+            <th
+              className="table-header-cell"
+              onClick={[Function]}
+            >
+              description
+            </th>
+          </tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <th
+                className="table-header-cell"
+                onClick={[Function]}
+              >
+                id
+              </th>,
+              <th
+                className="table-header-cell"
+                onClick={[Function]}
+              >
+                name
+              </th>,
+              <th
+                className="table-header-cell"
+                onClick={[Function]}
+              >
+                description
+              </th>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "id",
+                  false,
+                ],
+                "className": "table-header-cell",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "id",
+                false,
+              ],
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "name",
+                  false,
+                ],
+                "className": "table-header-cell",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "name",
+                false,
+              ],
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "description",
+                  false,
+                ],
+                "className": "table-header-cell",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "description",
+                false,
+              ],
+              "type": "th",
+            },
+          ],
+          "type": "tr",
+        },
+        "type": "thead",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <tr>
+              <td
+                onClick={[Function]}
+              >
+                1
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                John
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                Is a nice guy
+              </td>
+            </tr>,
+            <tr>
+              <td
+                onClick={[Function]}
+              >
+                44
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                Jack
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                Is a nice guy too
+              </td>
+            </tr>,
+            <tr>
+              <td
+                onClick={[Function]}
+              >
+                77
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                Unknown
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                Suspicious person
+              </td>
+            </tr>,
+            <tr>
+              <td
+                onClick={[Function]}
+              >
+                47
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                Ivan
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                Nothing to say about
+              </td>
+            </tr>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td
+                  onClick={[Function]}
+                >
+                  1
+                </td>,
+                <td
+                  onClick={[Function]}
+                >
+                  John
+                </td>,
+                <td
+                  onClick={[Function]}
+                >
+                  Is a nice guy
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 1,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": 1,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "John",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "John",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Is a nice guy",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Is a nice guy",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td
+                  onClick={[Function]}
+                >
+                  44
+                </td>,
+                <td
+                  onClick={[Function]}
+                >
+                  Jack
+                </td>,
+                <td
+                  onClick={[Function]}
+                >
+                  Is a nice guy too
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 44,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": 44,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Jack",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Jack",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Is a nice guy too",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Is a nice guy too",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td
+                  onClick={[Function]}
+                >
+                  77
+                </td>,
+                <td
+                  onClick={[Function]}
+                >
+                  Unknown
+                </td>,
+                <td
+                  onClick={[Function]}
+                >
+                  Suspicious person
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 77,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": 77,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Unknown",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Unknown",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Suspicious person",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Suspicious person",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td
+                  onClick={[Function]}
+                >
+                  47
+                </td>,
+                <td
+                  onClick={[Function]}
+                >
+                  Ivan
+                </td>,
+                <td
+                  onClick={[Function]}
+                >
+                  Nothing to say about
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 47,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": 47,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ivan",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Ivan",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Nothing to say about",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Nothing to say about",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+        ],
+        "type": "tbody",
+      },
+    ],
+    "type": "table",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <thead>
+            <tr>
+              <th
+                className="table-header-cell"
+                onClick={[Function]}
+              >
+                id
+              </th>
+              <th
+                className="table-header-cell"
+                onClick={[Function]}
+              >
+                name
+              </th>
+              <th
+                className="table-header-cell"
+                onClick={[Function]}
+              >
+                description
+              </th>
+            </tr>
+          </thead>,
+          <tbody>
+            <tr>
+              <td
+                onClick={[Function]}
+              >
+                1
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                John
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                Is a nice guy
+              </td>
+            </tr>
+            <tr>
+              <td
+                onClick={[Function]}
+              >
+                44
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                Jack
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                Is a nice guy too
+              </td>
+            </tr>
+            <tr>
+              <td
+                onClick={[Function]}
+              >
+                77
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                Unknown
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                Suspicious person
+              </td>
+            </tr>
+            <tr>
+              <td
+                onClick={[Function]}
+              >
+                47
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                Ivan
+              </td>
+              <td
+                onClick={[Function]}
+              >
+                Nothing to say about
+              </td>
+            </tr>
+          </tbody>,
+        ],
+        "className": "table table-striped table-hover",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th
+                className="table-header-cell"
+                onClick={[Function]}
+              >
+                id
+              </th>
+              <th
+                className="table-header-cell"
+                onClick={[Function]}
+              >
+                name
+              </th>
+              <th
+                className="table-header-cell"
+                onClick={[Function]}
+              >
+                description
+              </th>
+            </tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th
+                  className="table-header-cell"
+                  onClick={[Function]}
+                >
+                  id
+                </th>,
+                <th
+                  className="table-header-cell"
+                  onClick={[Function]}
+                >
+                  name
+                </th>,
+                <th
+                  className="table-header-cell"
+                  onClick={[Function]}
+                >
+                  description
+                </th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "id",
+                    false,
+                  ],
+                  "className": "table-header-cell",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "id",
+                  false,
+                ],
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "name",
+                    false,
+                  ],
+                  "className": "table-header-cell",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "name",
+                  false,
+                ],
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "description",
+                    false,
+                  ],
+                  "className": "table-header-cell",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "description",
+                  false,
+                ],
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <tr>
+                <td
+                  onClick={[Function]}
+                >
+                  1
+                </td>
+                <td
+                  onClick={[Function]}
+                >
+                  John
+                </td>
+                <td
+                  onClick={[Function]}
+                >
+                  Is a nice guy
+                </td>
+              </tr>,
+              <tr>
+                <td
+                  onClick={[Function]}
+                >
+                  44
+                </td>
+                <td
+                  onClick={[Function]}
+                >
+                  Jack
+                </td>
+                <td
+                  onClick={[Function]}
+                >
+                  Is a nice guy too
+                </td>
+              </tr>,
+              <tr>
+                <td
+                  onClick={[Function]}
+                >
+                  77
+                </td>
+                <td
+                  onClick={[Function]}
+                >
+                  Unknown
+                </td>
+                <td
+                  onClick={[Function]}
+                >
+                  Suspicious person
+                </td>
+              </tr>,
+              <tr>
+                <td
+                  onClick={[Function]}
+                >
+                  47
+                </td>
+                <td
+                  onClick={[Function]}
+                >
+                  Ivan
+                </td>
+                <td
+                  onClick={[Function]}
+                >
+                  Nothing to say about
+                </td>
+              </tr>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td
+                    onClick={[Function]}
+                  >
+                    1
+                  </td>,
+                  <td
+                    onClick={[Function]}
+                  >
+                    John
+                  </td>,
+                  <td
+                    onClick={[Function]}
+                  >
+                    Is a nice guy
+                  </td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 1,
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": 1,
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "John",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "John",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Is a nice guy",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Is a nice guy",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td
+                    onClick={[Function]}
+                  >
+                    44
+                  </td>,
+                  <td
+                    onClick={[Function]}
+                  >
+                    Jack
+                  </td>,
+                  <td
+                    onClick={[Function]}
+                  >
+                    Is a nice guy too
+                  </td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 44,
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": 44,
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Jack",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Jack",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Is a nice guy too",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Is a nice guy too",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td
+                    onClick={[Function]}
+                  >
+                    77
+                  </td>,
+                  <td
+                    onClick={[Function]}
+                  >
+                    Unknown
+                  </td>,
+                  <td
+                    onClick={[Function]}
+                  >
+                    Suspicious person
+                  </td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 77,
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": 77,
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Unknown",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Unknown",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Suspicious person",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Suspicious person",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td
+                    onClick={[Function]}
+                  >
+                    47
+                  </td>,
+                  <td
+                    onClick={[Function]}
+                  >
+                    Ivan
+                  </td>,
+                  <td
+                    onClick={[Function]}
+                  >
+                    Nothing to say about
+                  </td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 47,
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": 47,
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Ivan",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Ivan",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Nothing to say about",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Nothing to say about",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+          ],
+          "type": "tbody",
+        },
+      ],
+      "type": "table",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
