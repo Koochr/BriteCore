@@ -3,7 +3,6 @@ import React from "react"
 import { shallow, configure, mount, } from "enzyme"
 import Adapter from "enzyme-adapter-react-16"
 import App from "../react/App.jsx"
-import DataTable from "../react/components/DataTable"
 
 configure({ adapter: new Adapter(), })
 
